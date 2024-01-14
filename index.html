@@ -1,41 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>transparent cat</title>
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="images/icon/favicon_package_v0.16 (1)/favicon-32x32.png">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
   </head>
 
 <body>
-    <h3>透明貓貓紀錄</h3>
-    <span class="data">透明貓貓不會說話，透明貓貓不會被發現，透明貓貓就是透明貓貓</span>
+    <div id="div" class="top2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/icon/favicon_package_v0.16 (1)/android-chrome-512x512.png" height="50px"
+                alt="LOGO">透明貓貓紀錄
+                <h6 class="data">透明貓貓不會說話，透明貓貓就是透明貓貓</h6>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">作品集</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    棲息地
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="hauntn.html">系學會</a></li>
+                    <li><a class="dropdown-item" href="#">正副會長</a></li>
+                    <li><a class="dropdown-item" href="#">活動組</a></li>
+                    <li><a class="dropdown-item" href="#">總務組</a></li>
+                    <li><a class="dropdown-item" href="#">公關組</a></li>
+                    <li><a class="dropdown-item" href="#">美宣組</a></li>
+                    <li><a class="dropdown-item" href="#">文書組</a></li>
+                    <li><a class="dropdown-item" href="#">攝影組</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="share.html">各種分享</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">關於我</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
 
-    <nav id="top">
-        <ul id="main_menu">
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="portfolio.html">作品集</a></li>
-            <li><a href="hauntn.html">棲息地</a></li>
-            <li><a href="share.html">各種分享</a></li>
-            <li><a href="about.html">關於我</a></li>
-        </ul>
-    </nav>
+    <div id="top"></div>
 
         <div class="fixed_bg bg_1">
             <h1 class="vcenter"></h1>
         </div>
         <div class="infos color_1">
-            <h1 class="vcenter">作品集入口</h1>
+            <a class="vcenter" href="portfolio.html">
+                <h1>作品集入口</h1>
+            </a>
         </div>
         <div class="fixed_bg bg_2">
-            <h1 class="vcenter"></h1>
+            <h1 class="vcenter" ></h1>
         </div>
         <div class="infos color_2">
-            <h1 class="vcenter">棲息地入口</h1>
+            <a class="vcenter" href="hauntn.html">
+                <h1>棲息地入口</h1>
+            </a>
         </div>
 
     <div id="header">
@@ -47,6 +88,19 @@
                 <li><a href="https://twitter.com/kagawa_hina?t=4ISW8Un7G7tJZEi5qFDwpg&s=06" target="_blank"><img src="images/icon/1x/T.png" width="30px" height="30px" alt="twitter"></a></li>
             </ul>
         </div>
+    </div>
+
+    <div id="footer">
+      <nav>
+          <ul id="down_menu">
+              <li><a href="index.html">首頁</a></li>
+              <li class="leftsen"><a href="portfolio.html">作品集</a></li>
+              <li class="leftsen"><a href="hauntn.html">棲息地</a></li>
+              <li class="leftsen"><a href="share.html">各種分享</a></li>
+              <li class="leftsen"><a href="about.html">關於我</a></li>
+          </ul>
+      </nav>
+      <p>2024 made by hsieh yi ting</p>
     </div>
 
 </body>

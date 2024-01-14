@@ -3,6 +3,38 @@ body {
     font-family: sans-serif;
 }
 
+.top2 {
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    z-index: 1;
+  }
+  .top2 nav{
+      background-color: rgba(0, 0, 0, 0.6);
+      border-color: rgba(50,50,50,0.6);
+  }
+  .navbar-dark .navbar-brand{
+      color: #ffffff;
+  }
+  .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+      background-color: #abf2ff6e;
+      color: rgba(0,0,0,.9);
+  }
+  .navbar-dark .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+      color:  #5baaca;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+      color: #FFFFFF;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+      color:  #5baaca;
+  }
+  .nav-item{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.1);;
+  }
+
 #main_menu {
     list-style: none;
     padding: 0;
@@ -29,7 +61,7 @@ body {
 div.bg1 {
     width: 1245px;
     height: 300px;
-    background-image: url(../images/portfolio/homeworks/天空素2.jpg);
+    background-image: url(../images/portfolio/homeworks/sky2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +86,7 @@ div.wrap {
 
 div {
     width: 100%;
-    height: 300px;
+    height: 100px;
 }
 
 div {
@@ -116,7 +148,7 @@ p {
 }
 
 .data {
-    color: rgb(70, 87, 144);
+    color: rgb(201, 255, 255);
 }
 
 
@@ -304,7 +336,7 @@ p {
 }
 
 .bg_1{
-    background-image: url(../images/portfolio/homeworks/天空素2.jpg);
+    background-image: url(../images/portfolio/homeworks/sky2.jpg);
 }
 .bg_2{
     background-image: url(../images/hauntn/262088129_299023435450860_4000362077332473589_n.jpg);
@@ -333,4 +365,42 @@ html, body{
     top: 80%;
     left: 50%;
     color: aliceblue;
+    text-align: center;
+}
+
+#footer {
+    font-size: 1rem;
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(35, 71, 126);
+    font-family: sans-serif;
+}
+
+.leftsen {
+    border-left: 1px solid rgb(35, 71, 126);
+}
+
+#down_menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#down_menu li {
+    display: inline-block;
+}
+
+#down_menu li a {
+    display: block;
+    padding: 5px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(73, 119, 138);
+}
+
+#down_menu li a:hover {
+    color: rgb(81, 178, 235);
 }
